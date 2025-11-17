@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reparaciones Cantero</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: grey;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 15px;
+    }
+
+    .box {
+      background: grey;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .services, .prices {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 250px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    input, textarea, select, button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #00a7e1;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Reparaciones Cantero</h1>
+  <p>Servicio técnico de portátiles</p>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#precios">Precios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="box">
+    <h2>Reparación profesional de portátiles</h2>
+    <p>Diagnóstico rápido, repuestos originales y garantía. Expertos en pantallas, baterías y recuperación de datos.</p>
+  </div>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Cambio de pantalla</h3>
+        <p>Reemplazo de pantallas rotas o dañadas.</p>
+      </div>
+      <div class="card">
+        <h3>Baterías</h3>
+        <p>Cambio de baterías y revisión de carga.</p>
+      </div>
+      <div class="card">
+        <h3>Recuperación de datos</h3>
+        <p>Recuperamos archivos de discos dañados.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="precios">
+    <h2>Precios orientativos</h2>
+    <div class="prices">
+      <div class="card">
+        <strong>Diagnóstico</strong>
+        <p>20€</p>
+      </div>
+      <div class="card">
+        <strong>Cambio de batería</strong>
+        <p>Desde 45€</p>
+      </div>
+      <div class="card">
+        <strong>Cambio de pantalla</strong>
+        <p>Desde 80€</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="box">
+    <h2>Opiniones de clientes</h2>
+  
+  </section>
+
+  <section id="contacto" class="box">
+    <h2>Solicitar presupuesto</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="text" placeholder="Teléfono" required>
+      <select>
+        <option>Cambio de pantalla</option>
+        <option>Cambio de batería</option>
+        <option>Recuperación de datos</option>
+        <option>Otro</option>
+      </select>
+      <textarea rows="4" placeholder="Describe el problema..."></textarea>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </section>
+</div>
+
+</body>
+</html>
