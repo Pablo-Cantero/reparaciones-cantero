@@ -330,11 +330,6 @@ form select option:disabled {
 
 
 
-.item.hidden {
-  display: none;
-}
-
-
 button.secondary {
   background: var(--glass);
   border: 1px solid var(--accent);
