@@ -223,7 +223,60 @@ footer{
   justify-content:space-between;
   align-items:center;
 }
+.faq-section {
+  max-width: var(--max-w);
+  margin: 40px auto;
+  padding: 0 24px;
+}
 
+.faq h2 {
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+details {
+  background: var(--glass);
+  border-radius: var(--radius);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease;
+}
+
+details[open] {
+  border-color: var(--accent);
+}
+
+summary {
+  padding: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+summary::after {
+  content: '+';
+  color: var(--accent);
+  font-size: 20px;
+}
+
+details[open] summary::after {
+  content: '−';
+}
+
+.content {
+  padding: 0 18px 18px;
+  color: var(--muted);
+  line-height: 1.6;
+}
 @media (max-width:980px){
   .hero{
     grid-template-columns:1fr;
