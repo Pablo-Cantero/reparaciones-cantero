@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Solicitar Presupuesto — Reparaciones Cantero</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container" style="max-width: 600px;">
+    <header>
+      <div class="brand">
+         <div class="logo"><img src="imagenes/reparación-de-portátiles.ico" style="width:100%"></div>
+         <div style="font-weight:700">Reparaciones Cantero</div>
+      </div>
+    </header>
+
+    <section class="card" style="margin-top: 40px;">
+      <h3>Solicitar presupuesto</h3>
+      <form>
+        <input type="text" placeholder="Nombre completo" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <select name="servicio" required>
+            <option value="" disabled selected>Selecciona el servicio que necesitas</option>
+            <option value="pantalla">Cambio de pantalla</option>
+            <option value="bateria">Cambio de batería</option>
+            <option value="placa">Reparación de placa base</option>
+            <option value="datos">Recuperación de datos</option>
+          </select>
+        <textarea rows="5" placeholder="Describe el fallo..."></textarea>
+        <button type="submit">Enviar solicitud</button>
+      </form>
+      <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" style="color: var(--muted); text-decoration: none;">← Volver al inicio</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
