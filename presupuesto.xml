@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xml-styles.css"?>
+<solicitudPresupuesto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Users/asir1/Desktop/prueba/presupuesto.xsd">
+    <cliente>
+        <nombre>Juan Pérez</nombre>
+        <email>juan.perez@email.com</email>
+        <telefono>+34 600 000 000</telefono>
+    </cliente>
+    <detallesTecnicos>
+        <servicio>reparacion_placa</servicio>
+        <descripcion>El portátil no enciende tras una subida de tensión. Modelo ASUS Zenbook.</descripcion>
+        <fechaSolicitud>2024-03-27</fechaSolicitud>
+    </detallesTecnicos>
+</solicitudPresupuesto>
